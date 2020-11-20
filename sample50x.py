@@ -11,5 +11,5 @@ class Person:
     def show_attribute(self):
         #print('%s %s %s %s' % (self.name, self.nationality, self.birth, self.address))
         print("名前は",self.name,"国は",self.nationality, "誕生日は", self.birth, "住所は",self.address)
-p1 = Person("ラザフィ", "まだ出す刈る", "3/25", "opsadpoajpdojap")
+p1 = Person("ラザフィ", "カンボジア", "3/25", "address")
 p1.show_attribute()
