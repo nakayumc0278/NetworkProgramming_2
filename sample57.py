@@ -7,7 +7,7 @@ key = input("検索する文字列を入力")
 res = str.find(key)
 
 #検索文字列判定
-if res != str:
+if res != -1:
     print(str,"の中に",res,"の位置に",key,"が見つかった")
 else:
     print(str,"の中に",key,"が見つからない")
