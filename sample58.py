@@ -9,4 +9,4 @@ if old in str1:
     str2 = str1.replace(old,new)
     print(str2,"に置き換えました")
 else:
-    print(str + "の中に" + old + "が見つかりません!")
+    print(str + "の中に" + old + "が見つかりません")
