@@ -1,23 +1,22 @@
 #ren16.py
 #coading: utf-8
 
-import re
-
-ptr = ["Sample.csv", "Sample.exe", "Sample1.py", \
-    "Sample2.py", "Sample.txt", "index.html"]
+str = ["Sample.csv","Sample.exe","Sample1.py",\
+    "Sample2.py","Sample1.tct","index.html"]
 file = []
 
-print("ファイルリストは以下です")
-for  i in ptr:
+print("ファイルは以下の通りです")
+
+for i in str:
     print(i)
 
-tmp = input("検索する拡張子を入力: ")
+suf = input("拡張子を入力してください。")
 
-for j in str:
-    res = j.endswith(tmp)
+for i in str:
+    res = i.endswith(suf)
     if res is True:
         file.append(i)
 
-print("該当するファイルリストは以下です")
-for k in file:
-    print(k)
+print("該当するファイルリストは以下です。")
+for j  in file:
+    print(j)
