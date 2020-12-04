@@ -2,7 +2,7 @@
 #coading: utf-8
 
 str = ["Sample.csv","Sample.exe","Sample1.py",\
-    "Sample2.py","Sample1.tct","index.html"]
+    "Sample2.py","Sample1.txt","index.html"]
 file = []
 
 print("ファイルは以下の通りです")
