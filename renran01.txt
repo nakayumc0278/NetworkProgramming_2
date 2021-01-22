@@ -1,0 +1,20 @@
+#renran01.py
+#coding=utf-8
+
+import random as rd
+
+alpha = ["a", "b", "c", "d", "e", "f", "g", "h", "h", "j", "k", "l", "m", \
+    "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"]
+
+value = rd.choice(alpha)
+
+#print(value)
+
+while True:
+    inp = input("¬•¶š‚Ì‰pš‚ğ‚P•¶šw’è")
+    
+    if value != inp:
+        print("NG")
+    else:
+        print("OK")
+        break
