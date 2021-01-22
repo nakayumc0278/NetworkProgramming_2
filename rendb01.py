@@ -1,4 +1,4 @@
-# rendc01.py
+# rendb01.py
 # coding: utf-8
 
 import sqlite3 as sql
