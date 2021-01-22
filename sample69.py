@@ -1,5 +1,5 @@
 # sample69.py
-# coding= utf-8
+# coding utf-8
 
 try:
     f = open("sample69.txt","r",encoding='utf-8')
